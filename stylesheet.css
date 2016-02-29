@@ -1,0 +1,41 @@
+#header {
+
+}
+
+#footer {
+	background-color: #F2F2F2;
+	position: absolute;
+	bottom: 0;
+	width: 99%;
+	height: 40px;
+	border-top: 1px solid #E4E4E4;
+}
+
+.f_links {
+	color: #666;
+	text-decoration: none;
+	/*padding-left: 27px;*/
+	font-size: 14px;
+	/*margin: 0;*/
+	white-space: nowrap;
+	display: inline-block;
+}
+
+.f_links:hover {
+	text-decoration: underline;
+}
+
+#l_footer {
+	position: relative;
+	left: 0;
+}
+
+#r_footer {
+	position: relative;
+	float: right;
+}
+
+* {
+	font-family: arial, sans-serif;
+	-webkit-text-size-adjust: 100%;
+}
