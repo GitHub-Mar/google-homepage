@@ -1,3 +1,44 @@
+#searchBar {
+	border: 1px solid #D9D9D9;
+	max-width: 584px;
+	width: 584px;
+	height: 30px;
+
+}
+
+#searchBar:hover {
+	border: 1px solid #a0a0a0;
+}
+
+#buttons {
+	display: block;
+}
+
+#bSearch{
+	background: #F2F2F2;
+	border: 0;
+	padding: 0;
+	display: inline-block;
+	color: #757575;
+}
+
+#bLucky{
+	background: #F2F2F2;
+	border: 0;
+	padding: 0;
+	display: inline-block;
+	color: #757575;
+}
+
+#bLucky:hover{
+	border-top: 1px solid #E4E4E4;
+}
+
+#bSearch:hover{
+	border-top: 1px solid #E4E4E4;
+}
+
+
 #header {
 
 }
@@ -12,6 +53,8 @@
 	display: block;
 	min-width: 980px;
 }
+
+
 
 .f_links {
 	color: #666;
@@ -34,7 +77,6 @@
 	margin-left: 30px;
 	white-space: nowrap;
 	font-size: small;
-
 }
 
 #r_footer {
@@ -44,7 +86,16 @@
 	white-space: nowrap;
 }
 
+#main_body {
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+}
+
 * {
 	font-family: arial, sans-serif;
 	-webkit-text-size-adjust: 100%;
+	-webkit-appearance: none;
 }
