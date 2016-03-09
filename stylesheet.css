@@ -3,6 +3,7 @@
 	max-width: 584px;
 	width: 584px;
 	height: 30px;
+	display: block;
 
 }
 
@@ -10,16 +11,24 @@
 	border: 1px solid #a0a0a0;
 }
 
-#buttons {
+.mic-logo {
+	height: 23px;
+	width: 17px;
+}
+
+.buttons {
 	display: block;
+	color: #757575;
 }
 
 #bSearch{
-	background: #F2F2F2;
+	background-color: #F2F2F2;
 	border: 0;
 	padding: 0;
 	display: inline-block;
+	border: 1px solid #c6c6c6;
 	color: #757575;
+	font: 13.3px arial;
 }
 
 #bLucky{
@@ -28,7 +37,10 @@
 	padding: 0;
 	display: inline-block;
 	color: #757575;
+	border: 1px solid #c6c6c6;
+	font: 13.3px arial;
 }
+
 
 #bLucky:hover{
 	border-top: 1px solid #E4E4E4;
@@ -40,51 +52,8 @@
 
 
 #header {
-
 }
 
-#footer {
-	background-color: #F2F2F2;
-	position: absolute;
-	bottom: 0;
-	width: 99%;
-	height: 40px;
-	border-top: 1px solid #E4E4E4;
-	display: block;
-	min-width: 980px;
-}
-
-
-
-.f_links {
-	color: #666;
-	text-decoration: none;
-	padding-left: 27px;
-	margin: 0;
-	white-space: nowrap;
-	display: inline-block;
-	line-height: 40px;
-}
-
-.f_links:hover {
-	text-decoration: underline;
-}
-
-.f_link:visited {
-	color: #609;
-}
-#l_footer {
-	margin-left: 30px;
-	white-space: nowrap;
-	font-size: small;
-}
-
-#r_footer {
-	float: right;
-	margin-right: 30px;
-	font-size: small;
-	white-space: nowrap;
-}
 
 #main_body {
 	display: block;

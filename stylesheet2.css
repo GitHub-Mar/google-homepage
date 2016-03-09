@@ -1,0 +1,118 @@
+.logo {
+	margin: auto;
+	margin-top: 89px;
+}
+#main-body{
+	margin: 160px auto;
+	text-align: center;
+}
+
+#lucky_button {
+	background-color: #f2f2f2;
+	border: 1px solid #F2F2F2;
+    border-radius: 2px;
+	color: #757575;
+	font-size: 13px;
+	font-weight: bold;
+    margin: 11px 4px;
+    text-align: center;
+    padding: 0 16px;
+    min-width: 54px;
+	height: 36px;
+	line-height: 27px;
+}
+
+#lucky_button:hover {
+	border: 1px solid #a0a0a0;
+	color: black;
+}
+
+#search_button {
+	background-color: #f2f2f2;
+    border: 1px solid #F2F2F2;
+    border-radius: 2px;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0 16px;
+    color: #757575;
+    margin: 11px 4px;
+    text-align: center;
+    min-width: 54px;
+	line-height: 27px;
+	height: 36px;
+}
+
+#search_button:hover {
+	border: 1px solid #a0a0a0;
+	color: black;
+}
+
+#fSearch {
+	display: inline-block;
+}
+
+ #searchBar {
+ 	margin: auto;
+ 	display: block;
+ 	min-width: 484px;
+ 	border: 1px solid #D9D9D9;
+	max-width: 584px;
+	width: 584px;
+	height: 40px;
+	padding: 0;
+ }
+.mic-logo {
+	height: 23px;
+	width: 17px;
+	cursor: pointer;
+	background-image:url(http://i.imgur.com/l5S4LZ2.png);
+	display: inline-block;
+}
+
+#searchBar:hover {
+	border: 1px solid #a0a0a0;
+}
+
+#footer {
+	background-color: #F2F2F2;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 40px;
+	border-top: 1px solid #E4E4E4;
+	display: block;
+	min-width: 980px;
+	margin-left: -27px;
+}
+
+.f_links {
+	color: #666;
+	text-decoration: none;
+	padding-left: 27px;
+	margin: 0;
+	white-space: nowrap;
+	display: inline-block;
+	line-height: 40px;
+	font-family: arial;
+}
+
+.f_links:hover {
+	text-decoration: underline;
+}
+
+.f_link:visited {
+	color: #609;
+}
+#l_footer {
+	margin-left: 30px;
+	white-space: nowrap;
+	font-size: small;
+}
+
+#r_footer {
+	float: right;
+	margin-right: 30px;
+	font-size: small;
+	white-space: nowrap;
+}
